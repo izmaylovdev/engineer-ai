@@ -1,0 +1,12 @@
+:host {
+    display: block;
+}
+
+.mat-row {
+    cursor: pointer;
+    transition: .2s;
+
+    &:hover {
+        background: rgba(255, 255, 255, .02) !important;
+    }
+}
